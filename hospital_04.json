@@ -1,0 +1,87 @@
+{
+  "hospital_id": "HSP005",
+  "name": "Hospital Tengku Ampuan Afzan",
+  "short_name": "HTAA",
+  "type": "Government",
+  "category": "Tertiary",
+  "status": "Active",
+  "established_date": "1987-09-22",
+  "contact": {
+    "phone": "+609-513-3333",
+    "fax": "+609-513-3334",
+    "email": "info@htaa.moh.gov.my",
+    "website": "https://htaa.moh.gov.my",
+    "emergency_hotline": "+609-513-3999"
+  },
+  "address": {
+    "street": "Jalan Tanah Putih",
+    "city": "Kuantan",
+    "state": "Pahang",
+    "postcode": "25100",
+    "country": "Malaysia",
+    "coordinates": {
+      "latitude": 3.8077,
+      "longitude": 103.3260
+    }
+  },
+  "administration": {
+    "director": "Dr. Azizah Mahmud",
+    "deputy_director": "Dr. Chen Wei Liang",
+    "total_staff": 1650,
+    "doctors": 245,
+    "nurses": 850,
+    "support_staff": 555
+  },
+  "facilities": {
+    "total_beds": 750,
+    "icu_beds": 28,
+    "emergency_beds": 16,
+    "operating_theaters": 10,
+    "parking_spaces": 950,
+    "ambulances": 7
+  },
+  "services": [
+    "Emergency Medicine",
+    "Internal Medicine",
+    "Surgery",
+    "Pediatrics",
+    "Obstetrics & Gynecology",
+    "Cardiology",
+    "Orthopedics",
+    "Radiology",
+    "Laboratory",
+    "Pharmacy",
+    "Ophthalmology"
+  ],
+  "specialties": [
+    "Cardiac Surgery",
+    "Neurosurgery",
+    "Oncology",
+    "Nephrology",
+    "Gastroenterology",
+    "Pulmonology"
+  ],
+  "operating_hours": {
+    "emergency": "24/7",
+    "outpatient": {
+      "weekdays": "08:00-17:00",
+      "weekends": "08:00-13:00"
+    },
+    "visiting_hours": "15:00-20:00"
+  },
+  "accreditation": {
+    "iso_certified": true,
+    "jci_accredited": false,
+    "msqh_certified": true,
+    "last_audit": "2024-04-18"
+  },
+  "statistics": {
+    "annual_admissions": 52000,
+    "annual_outpatients": 195000,
+    "annual_surgeries": 9800,
+    "average_stay_days": 4.3,
+    "bed_occupancy_rate": 82.6
+  },
+  "created_at": "2024-01-15T10:30:00+08:00",
+  "updated_at": "2024-09-22T09:30:00+08:00"
+}

@@ -1,0 +1,89 @@
+{
+  "hospital_id": "HSP011",
+  "name": "Hospital Tuanku Ja'afar",
+  "short_name": "HTJ",
+  "type": "Government",
+  "category": "Tertiary",
+  "status": "Active",
+  "established_date": "1994-06-10",
+  "contact": {
+    "phone": "+606-768-6000",
+    "fax": "+606-768-6001",
+    "email": "info@htj.moh.gov.my",
+    "website": "https://htj.moh.gov.my",
+    "emergency_hotline": "+606-768-6999"
+  },
+  "address": {
+    "street": "Jalan Rasah",
+    "city": "Seremban",
+    "state": "Negeri Sembilan",
+    "postcode": "70300",
+    "country": "Malaysia",
+    "coordinates": {
+      "latitude": 2.7297,
+      "longitude": 101.9381
+    }
+  },
+  "administration": {
+    "director": "Dr. Sharifah Ezat Wan Puteh",
+    "deputy_director": "Dr. Mohd Radzniwan A. Rashid",
+    "total_staff": 2200,
+    "doctors": 335,
+    "nurses": 1150,
+    "support_staff": 715
+  },
+  "facilities": {
+    "total_beds": 1050,
+    "icu_beds": 40,
+    "emergency_beds": 20,
+    "operating_theaters": 14,
+    "parking_spaces": 1400,
+    "ambulances": 10
+  },
+  "services": [
+    "Emergency Medicine",
+    "Internal Medicine",
+    "Surgery",
+    "Pediatrics",
+    "Obstetrics & Gynecology",
+    "Cardiology",
+    "Orthopedics",
+    "Radiology",
+    "Laboratory",
+    "Pharmacy",
+    "Geriatrics",
+    "Physiotherapy"
+  ],
+  "specialties": [
+    "Cardiac Surgery",
+    "Neurosurgery",
+    "Oncology",
+    "Nephrology",
+    "Gastroenterology",
+    "Hepatology",
+    "Interventional Cardiology"
+  ],
+  "operating_hours": {
+    "emergency": "24/7",
+    "outpatient": {
+      "weekdays": "08:00-17:00",
+      "weekends": "08:00-13:00"
+    },
+    "visiting_hours": "15:00-20:00"
+  },
+  "accreditation": {
+    "iso_certified": true,
+    "jci_accredited": true,
+    "msqh_certified": true,
+    "last_audit": "2024-08-05"
+  },
+  "statistics": {
+    "annual_admissions": 75000,
+    "annual_outpatients": 295000,
+    "annual_surgeries": 16200,
+    "average_stay_days": 4.8,
+    "bed_occupancy_rate": 88.9
+  },
+  "created_at": "2024-01-15T10:30:00+08:00",
+  "updated_at": "2024-10-18T11:55:00+08:00"
+}

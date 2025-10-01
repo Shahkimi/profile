@@ -1,0 +1,90 @@
+{
+  "hospital_id": "HSP007",
+  "name": "Hospital Sungai Buloh",
+  "short_name": "HSB2",
+  "type": "Government",
+  "category": "Tertiary",
+  "status": "Active",
+  "established_date": "1999-08-31",
+  "contact": {
+    "phone": "+603-6145-5555",
+    "fax": "+603-6145-5556",
+    "email": "info@hsb2.moh.gov.my",
+    "website": "https://hsb2.moh.gov.my",
+    "emergency_hotline": "+603-6145-5999"
+  },
+  "address": {
+    "street": "Jalan Hospital",
+    "city": "Sungai Buloh",
+    "state": "Selangor",
+    "postcode": "47000",
+    "country": "Malaysia",
+    "coordinates": {
+      "latitude": 3.2167,
+      "longitude": 101.5833
+    }
+  },
+  "administration": {
+    "director": "Dr. Noor Hisham Abdullah",
+    "deputy_director": "Dr. Khadijah Ismail",
+    "total_staff": 3200,
+    "doctors": 480,
+    "nurses": 1650,
+    "support_staff": 1070
+  },
+  "facilities": {
+    "total_beds": 1400,
+    "icu_beds": 56,
+    "emergency_beds": 28,
+    "operating_theaters": 20,
+    "parking_spaces": 2000,
+    "ambulances": 15
+  },
+  "services": [
+    "Emergency Medicine",
+    "Internal Medicine",
+    "Surgery",
+    "Pediatrics",
+    "Obstetrics & Gynecology",
+    "Cardiology",
+    "Orthopedics",
+    "Radiology",
+    "Laboratory",
+    "Pharmacy",
+    "Infectious Diseases",
+    "Critical Care"
+  ],
+  "specialties": [
+    "Cardiac Surgery",
+    "Neurosurgery",
+    "Oncology",
+    "Nephrology",
+    "Gastroenterology",
+    "Transplant Surgery",
+    "Infectious Diseases",
+    "Respiratory Medicine"
+  ],
+  "operating_hours": {
+    "emergency": "24/7",
+    "outpatient": {
+      "weekdays": "07:30-17:30",
+      "weekends": "08:00-13:00"
+    },
+    "visiting_hours": "14:00-20:00"
+  },
+  "accreditation": {
+    "iso_certified": true,
+    "jci_accredited": true,
+    "msqh_certified": true,
+    "last_audit": "2024-09-15"
+  },
+  "statistics": {
+    "annual_admissions": 95000,
+    "annual_outpatients": 380000,
+    "annual_surgeries": 22000,
+    "average_stay_days": 5.3,
+    "bed_occupancy_rate": 94.1
+  },
+  "created_at": "2024-01-15T10:30:00+08:00",
+  "updated_at": "2024-10-20T12:45:00+08:00"
+}

@@ -1,0 +1,87 @@
+{
+  "hospital_id": "HSP003",
+  "name": "Hospital Selayang",
+  "short_name": "HSY",
+  "type": "Government",
+  "category": "Secondary",
+  "status": "Active",
+  "established_date": "1997-05-12",
+  "contact": {
+    "phone": "+603-6126-3333",
+    "fax": "+603-6126-3334",
+    "email": "info@hsy.moh.gov.my",
+    "website": "https://hsy.moh.gov.my",
+    "emergency_hotline": "+603-6126-3999"
+  },
+  "address": {
+    "street": "Lebuhraya Selayang-Kepong",
+    "city": "Selayang",
+    "state": "Selangor",
+    "postcode": "68100",
+    "country": "Malaysia",
+    "coordinates": {
+      "latitude": 3.2597,
+      "longitude": 101.6508
+    }
+  },
+  "administration": {
+    "director": "Dr. Rajesh Kumar",
+    "deputy_director": "Dr. Noraini Hassan",
+    "total_staff": 1850,
+    "doctors": 280,
+    "nurses": 950,
+    "support_staff": 620
+  },
+  "facilities": {
+    "total_beds": 850,
+    "icu_beds": 32,
+    "emergency_beds": 18,
+    "operating_theaters": 12,
+    "parking_spaces": 1200,
+    "ambulances": 8
+  },
+  "services": [
+    "Emergency Medicine",
+    "Internal Medicine",
+    "Surgery",
+    "Pediatrics",
+    "Obstetrics & Gynecology",
+    "Cardiology",
+    "Orthopedics",
+    "Radiology",
+    "Laboratory",
+    "Pharmacy",
+    "Rehabilitation"
+  ],
+  "specialties": [
+    "Cardiac Surgery",
+    "Neurosurgery",
+    "Oncology",
+    "Nephrology",
+    "Gastroenterology",
+    "Plastic Surgery"
+  ],
+  "operating_hours": {
+    "emergency": "24/7",
+    "outpatient": {
+      "weekdays": "08:00-17:00",
+      "weekends": "08:00-12:30"
+    },
+    "visiting_hours": "15:30-19:30"
+  },
+  "accreditation": {
+    "iso_certified": true,
+    "jci_accredited": false,
+    "msqh_certified": true,
+    "last_audit": "2024-07-10"
+  },
+  "statistics": {
+    "annual_admissions": 62000,
+    "annual_outpatients": 245000,
+    "annual_surgeries": 12800,
+    "average_stay_days": 4.8,
+    "bed_occupancy_rate": 88.7
+  },
+  "created_at": "2024-01-15T10:30:00+08:00",
+  "updated_at": "2024-09-30T11:15:00+08:00"
+}

@@ -1,0 +1,85 @@
+{
+  "hospital_id": "HSP009",
+  "name": "Hospital Melaka",
+  "short_name": "HM",
+  "type": "Government",
+  "category": "Secondary",
+  "status": "Active",
+  "established_date": "1994-12-03",
+  "contact": {
+    "phone": "+606-289-2344",
+    "fax": "+606-289-2345",
+    "email": "info@hm.moh.gov.my",
+    "website": "https://hm.moh.gov.my",
+    "emergency_hotline": "+606-289-2999"
+  },
+  "address": {
+    "street": "Jalan Mufti Haji Khalil",
+    "city": "Melaka",
+    "state": "Melaka",
+    "postcode": "75400",
+    "country": "Malaysia",
+    "coordinates": {
+      "latitude": 2.1896,
+      "longitude": 102.2501
+    }
+  },
+  "administration": {
+    "director": "Dr. Roslan Johari",
+    "deputy_director": "Dr. Lim Ai Choo",
+    "total_staff": 1450,
+    "doctors": 220,
+    "nurses": 750,
+    "support_staff": 480
+  },
+  "facilities": {
+    "total_beds": 620,
+    "icu_beds": 24,
+    "emergency_beds": 14,
+    "operating_theaters": 8,
+    "parking_spaces": 800,
+    "ambulances": 6
+  },
+  "services": [
+    "Emergency Medicine",
+    "Internal Medicine",
+    "Surgery",
+    "Pediatrics",
+    "Obstetrics & Gynecology",
+    "Cardiology",
+    "Orthopedics",
+    "Radiology",
+    "Laboratory",
+    "Pharmacy"
+  ],
+  "specialties": [
+    "Cardiac Surgery",
+    "Neurosurgery",
+    "Oncology",
+    "Nephrology",
+    "Gastroenterology"
+  ],
+  "operating_hours": {
+    "emergency": "24/7",
+    "outpatient": {
+      "weekdays": "08:00-17:00",
+      "weekends": "08:00-13:00"
+    },
+    "visiting_hours": "15:00-20:00"
+  },
+  "accreditation": {
+    "iso_certified": true,
+    "jci_accredited": false,
+    "msqh_certified": true,
+    "last_audit": "2024-02-14"
+  },
+  "statistics": {
+    "annual_admissions": 42000,
+    "annual_outpatients": 165000,
+    "annual_surgeries": 7200,
+    "average_stay_days": 3.9,
+    "bed_occupancy_rate": 79.3
+  },
+  "created_at": "2024-01-15T10:30:00+08:00",
+  "updated_at": "2024-09-18T10:25:00+08:00"
+}
