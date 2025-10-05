@@ -7,11 +7,9 @@
   "status": "Active",
   "established_date": "1985-03-15",
   "contact": {
-    "phone": "+604-730-7000",
-    "fax": "+604-730-7001",
+    "phone": "+604-740-6233",
     "email": "info@hsb.moh.gov.my",
-    "website": "https://hsb.moh.gov.my",
-    "emergency_hotline": "+604-730-7999"
+    "website": "https://jknkedah.moh.gov.my/hsb"
   },
   "address": {
     "street": "Km 6, Jalan Langgar",
@@ -59,20 +57,6 @@
     "Nephrology",
     "Gastroenterology"
   ],
-  "operating_hours": {
-    "emergency": "24/7",
-    "outpatient": {
-      "weekdays": "08:00-17:00",
-      "weekends": "08:00-13:00"
-    },
-    "visiting_hours": "15:00-20:00"
-  },
-  "accreditation": {
-    "iso_certified": true,
-    "jci_accredited": false,
-    "msqh_certified": true,
-    "last_audit": "2024-06-15"
-  },
   "statistics": {
     "annual_admissions": 45000,
     "annual_outpatients": 180000,

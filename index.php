@@ -97,7 +97,7 @@ function validateInput($input, $type = 'string', $maxLength = 255) {
             if (strlen($input) > $maxLength) {
                 return false;
             }
-            return filter_var($input, FILTER_SANITIZE_STRING, FILTER_FLAG_NO_ENCODE_QUOTES);
+            return htmlspecialchars(strip_tags($input), ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
         case 'url':
             return filter_var($input, FILTER_VALIDATE_URL);
         default:

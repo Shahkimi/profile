@@ -1,0 +1,93 @@
+{
+  "hospital_id": "HSP001",
+  "name": "Hospital Sultanah Bahiyah",
+  "short_name": "HSB",
+  "district": "Kota Setar",
+  "established_date": "2007",
+  "site_area": "70 Ekar",
+  "contact": {
+    "website": "https://jknkedah.moh.gov.my/hsb"
+  },
+  "address": {
+    "street": "Km 6, Jalan Langgar",
+    "city": "Alor Setar",
+    "state": "Kedah",
+    "postcode": "05460",
+    "country": "Malaysia",
+    "coordinates": {
+      "latitude": 6.148653820007202,
+      "longitude": 100.40635203878894
+    }
+  },
+  "administration": {
+    "director": "TBA",
+    "deputy_director1": "TBA",
+    "deputy_director2": "TBA",
+    "deputy_director3": "TBA",
+    "total_staff": 3579,
+    "contract_staff": 573
+  },
+  "fasili": [
+    "Perubatan Am",
+    "Pembedahan Am",
+    "Ortopedik",
+    "Pediatrik",
+    "O&G",
+    "Anest",
+    "ORL",
+    "Oftalmologi",
+    "Psy",
+    "OMF",
+    "Kecemasan",
+    "Pergigian Pediatrik",
+    "Jabatan Kardiologi",
+    "Jabatan Dermatologi",
+    "Jabatan Pembedahan Neuro"
+  ],
+  "specialties": [
+    "Perubatan Am",
+    "Pembedahan Am",
+    "Ortopedik",
+    "Pediatrik",
+    "O&G",
+    "Anest",
+    "ORL",
+    "Oftalmologi",
+    "Psy",
+    "OMF",
+    "Kecemasan",
+    "Pergigian Pediatrik",
+    "Jabatan Kardiologi",
+    "Jabatan Dermatologi",
+    "Jabatan Pembedahan Neuro"
+  ],
+  "clinical_support": [
+    "Forensik",
+    "Anatomical Pathology Microbiology Hematology",
+    "Transfusi",
+    "Farmasi",
+    "Dietetik",
+    "Fisioterapi",
+    "Pemulihan cara Kerja",
+    "Kerja Sosial",
+    "Jabatan Perubatan Rehabilitasi",
+    "Jabatan Rekod Perubatan",
+    "Unit Kawalan Infeksi",
+    "Unit Casemix",
+    "Unit Kualiti",
+    "Unit CCSD",
+    "Unit Keselamatan dan Kesihatan Pekerjaan (UKKP)",
+    "Unit Perubatan Tradisional dan Komplementari (TCM)",
+    "Unit Pusat Penyelidikan Klinikal (CRC)",
+    "Unit Perubatan Sukan"
+  ],
+  "statistics": {
+    "annual_admissions": 45000,
+    "annual_outpatients": 180000,
+    "annual_surgeries": 8500,
+    "average_stay_days": 4.2,
+    "bed_occupancy_rate": 85.5
+  },
+  "created_at": "2024-01-15T10:30:00+08:00",
+  "updated_at": "2024-09-28T14:45:00+08:00"
+}
