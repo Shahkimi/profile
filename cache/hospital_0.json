@@ -1,0 +1,70 @@
+{
+    "hospital_id": 1,
+    "name": "Hospital Sultanah Maliha",
+    "short_name": "Hospital Sultanah Maliha",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1915",
+    "address": {
+        "street": "Hospital Sultanah Maliha, Jalan Padang Matsirat, Bukit Tekuh, 07000 Langkawi, Kedah",
+        "city": "Langkawi",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalsultanahmaliha@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 163,
+        "icu_beds": 50,
+        "emergency_beds": 79,
+        "operating_rooms": 11,
+        "parking_spaces": 221
+    },
+    "statistics": {
+        "annual_admissions": 18143,
+        "bed_occupancy_rate": 74.84,
+        "average_stay_days": 3.61
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR ANIZA BINTI AHMAT",
+        "deputy_director": "- Dr Nor Harizah Binti Mohd Afifi (TP1)\n- Dr Mohd Affiz Bin Md Yusof (KP)\n- En. Chiang Yuh Yee (TP Pengurusan)",
+        "doctors": 49,
+        "nurses": 160,
+        "support_staff": 120,
+        "total_staff": 609
+    },
+    "cluster": "NA",
+    "land_area": "53",
+    "updated_at": "2025-10-06 23:18:46"
+}

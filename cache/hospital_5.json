@@ -1,0 +1,70 @@
+{
+    "hospital_id": 6,
+    "name": "Hospital Sultan Abdul Halim",
+    "short_name": "Hospital Sultan Abdul Halim",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "2007",
+    "address": {
+        "street": "Hospital Sultan Abdul Halim Jalan Lencongan Timur, Bandar Aman Jaya,08000, Sungai Petani, Kedah",
+        "city": "Kuala Muda",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalsultanabdulhalim@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 703,
+        "icu_beds": 50,
+        "emergency_beds": 65,
+        "operating_rooms": 15,
+        "parking_spaces": 300
+    },
+    "statistics": {
+        "annual_admissions": 42226,
+        "bed_occupancy_rate": 91.43,
+        "average_stay_days": 4.62
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "",
+        "deputy_director": "",
+        "doctors": 49,
+        "nurses": 172,
+        "support_staff": 149,
+        "total_staff": 4
+    },
+    "cluster": "HOKTEN",
+    "land_area": "40",
+    "updated_at": "2025-10-06 23:18:46"
+}

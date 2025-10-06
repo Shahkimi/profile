@@ -1,0 +1,70 @@
+{
+    "hospital_id": 4,
+    "name": "Hospital Pendang",
+    "short_name": "Hospital Pendang",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "2022",
+    "address": {
+        "street": "Hospital Pendang Mukim Air Puteh 06700 Pendang Kedah",
+        "city": "Pendang",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalpendang@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 152,
+        "icu_beds": 43,
+        "emergency_beds": 43,
+        "operating_rooms": 14,
+        "parking_spaces": 414
+    },
+    "statistics": {
+        "annual_admissions": 36693,
+        "bed_occupancy_rate": 75.28,
+        "average_stay_days": 3.68
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR. AKMAL NAZIAH BINTI DATO' HAJI AHMAD, A.M.K",
+        "deputy_director": "- Dr Nur Zahidah binti Mahamad Aziz",
+        "doctors": 30,
+        "nurses": 215,
+        "support_staff": 84,
+        "total_staff": 714
+    },
+    "cluster": "HOKKU",
+    "land_area": "42",
+    "updated_at": "2025-10-06 23:18:46"
+}

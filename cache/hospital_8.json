@@ -1,0 +1,70 @@
+{
+    "hospital_id": 9,
+    "name": "Hospital Baling",
+    "short_name": "Hospital Baling",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "",
+    "address": {
+        "street": "Jalan Hospital, Baling, 09100 Baling, Kedah",
+        "city": "Baling",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalbaling@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 0,
+        "icu_beds": 21,
+        "emergency_beds": 25,
+        "operating_rooms": 8,
+        "parking_spaces": 147
+    },
+    "statistics": {
+        "annual_admissions": 45883,
+        "bed_occupancy_rate": 0,
+        "average_stay_days": 0
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "",
+        "deputy_director": "",
+        "doctors": 82,
+        "nurses": 234,
+        "support_staff": 128,
+        "total_staff": 0
+    },
+    "cluster": "NA",
+    "land_area": "",
+    "updated_at": "2025-10-06 23:18:46"
+}

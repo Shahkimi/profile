@@ -1,0 +1,70 @@
+{
+    "hospital_id": 10,
+    "name": "Hospital Kulim",
+    "short_name": "Hospital Kulim",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1994",
+    "address": {
+        "street": "Hospital Kulim, Lebuh Hi-Tech, 09090 Kulim, Kedah",
+        "city": "Kulim",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalkulim@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 320,
+        "icu_beds": 39,
+        "emergency_beds": 54,
+        "operating_rooms": 13,
+        "parking_spaces": 109
+    },
+    "statistics": {
+        "annual_admissions": 37444,
+        "bed_occupancy_rate": 96.5,
+        "average_stay_days": 4.2
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "",
+        "deputy_director": "",
+        "doctors": 51,
+        "nurses": 208,
+        "support_staff": 139,
+        "total_staff": 1448
+    },
+    "cluster": "NA",
+    "land_area": "11.86",
+    "updated_at": "2025-10-06 23:18:46"
+}

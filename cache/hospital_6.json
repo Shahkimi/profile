@@ -1,0 +1,70 @@
+{
+    "hospital_id": 7,
+    "name": "Hospital Sungai Petani (HSP)",
+    "short_name": "Hospital Sungai Petani (HSP)",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1920",
+    "address": {
+        "street": "Jalan Badlishah, 08000 Sungai Petani, Kedah",
+        "city": "Kuala Muda",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalsungaipetani(hsp)@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 0,
+        "icu_beds": 46,
+        "emergency_beds": 65,
+        "operating_rooms": 7,
+        "parking_spaces": 226
+    },
+    "statistics": {
+        "annual_admissions": 18421,
+        "bed_occupancy_rate": 0,
+        "average_stay_days": 0
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "",
+        "deputy_director": "",
+        "doctors": 50,
+        "nurses": 171,
+        "support_staff": 96,
+        "total_staff": 0
+    },
+    "cluster": "NA",
+    "land_area": "19.3",
+    "updated_at": "2025-10-06 23:18:46"
+}

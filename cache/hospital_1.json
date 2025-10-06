@@ -1,0 +1,70 @@
+{
+    "hospital_id": 2,
+    "name": "Hospital Sultanah Bahiyah",
+    "short_name": "Hospital Sultanah Bahiyah",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "2007",
+    "address": {
+        "street": "Km 6, Jln Langgar, Bandar, 05460 Alor Setar, Kedah",
+        "city": "Kota Setar",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalsultanahbahiyah@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 1108,
+        "icu_beds": 25,
+        "emergency_beds": 38,
+        "operating_rooms": 8,
+        "parking_spaces": 323
+    },
+    "statistics": {
+        "annual_admissions": 11336,
+        "bed_occupancy_rate": 78.22,
+        "average_stay_days": 4.82
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR FAUZIAH BINTI ABDUL WAHAB, SDK",
+        "deputy_director": "- Dr Kabirurahman bin Abd Rashid (TP I)\n- Dr Nor Raziah binti Sabtu (TP II)\n- Dr Logaraj a\/l Ngnanasagaran (TP III)\n- Dr Nukman bin Hussain (TP IV)\n- TP Pengurusan - Kosong",
+        "doctors": 38,
+        "nurses": 59,
+        "support_staff": 84,
+        "total_staff": 4152
+    },
+    "cluster": "HOKKU",
+    "land_area": "70",
+    "updated_at": "2025-10-06 23:18:46"
+}

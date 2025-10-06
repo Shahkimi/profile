@@ -1,0 +1,70 @@
+{
+    "hospital_id": 5,
+    "name": "Hospital Yan",
+    "short_name": "Hospital Yan",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1992",
+    "address": {
+        "street": "Hospital yan,\n06900 Yan, Kedah",
+        "city": "Yan",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalyan@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 89,
+        "icu_beds": 34,
+        "emergency_beds": 58,
+        "operating_rooms": 11,
+        "parking_spaces": 297
+    },
+    "statistics": {
+        "annual_admissions": 15243,
+        "bed_occupancy_rate": 57.9,
+        "average_stay_days": 3.9
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR TENGKU NURSHAHRIL BIN TENGKU KECHIL",
+        "deputy_director": "- Dr. Muhamad Amer bin Shafie",
+        "doctors": 62,
+        "nurses": 293,
+        "support_staff": 99,
+        "total_staff": 325
+    },
+    "cluster": "HOKTEN",
+    "land_area": "25",
+    "updated_at": "2025-10-06 23:18:46"
+}

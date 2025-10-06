@@ -1,0 +1,70 @@
+{
+    "hospital_id": 12,
+    "name": "Hospital Jitra",
+    "short_name": "Hospital Jitra",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1992",
+    "address": {
+        "street": "Hospital Jitra Jalan Changlun, 06000 Jitra, Kedah",
+        "city": "Kubang Pasu",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitaljitra@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 91,
+        "icu_beds": 31,
+        "emergency_beds": 48,
+        "operating_rooms": 7,
+        "parking_spaces": 430
+    },
+    "statistics": {
+        "annual_admissions": 38636,
+        "bed_occupancy_rate": 64.23,
+        "average_stay_days": 2.73
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR. SITI NORHANI \nMAZRAH BINTI KHALID",
+        "deputy_director": "- DR MUHAMMAD NAZLI BIN PAUZI",
+        "doctors": 99,
+        "nurses": 239,
+        "support_staff": 123,
+        "total_staff": 387
+    },
+    "cluster": "HOKKU",
+    "land_area": "40",
+    "updated_at": "2025-10-06 23:18:46"
+}

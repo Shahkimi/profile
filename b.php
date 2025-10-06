@@ -1,5 +1,5 @@
 <?php
-// Fetch data from Google Sheets (from a.php)
+// Fetch data from Google Sheets
 $sheetUrl = "https://docs.google.com/spreadsheets/d/1kQCJUxtPevd9D2XIPMphQHymwah-O5at_o3Pokj6gWw/export?format=csv&gid=0";
 
 $context = stream_context_create([
@@ -57,9 +57,9 @@ if ($csvData !== FALSE) {
             
             $cleanRow = array_map(function($val) {
                 $val = trim($val ?? '');
-                $val = preg_replace('/\s*[\r\n]+\s*/', ' ', $val);
-                return trim($val);
+                return $val;
             }, $row);
+            
             
             $hospitals[] = array_combine($headers, $cleanRow);
         }
@@ -131,11 +131,14 @@ $hospital = [
     ],
     'administration' => [
         'director' => strtoupper($hospitalData['Ketua PTJ'] ?? 'N/A'),
+        'deputy_director' => $hospitalData['Timbalan Pengarah'] ?? 'N/A',
         'doctors' => rand(20, 100),
         'nurses' => rand(50, 300),
         'support_staff' => rand(30, 150),
         'total_staff' => (intval($hospitalData['Staff Tetap'] ?? 0) + intval($hospitalData['Staff Kontrak'] ?? 0))
     ],
+    'cluster' => $hospitalData['Kluster'] ?? '',
+    'land_area' => $hospitalData['Keluasan Tapak (Ekar)'] ?? '',
     'updated_at' => date('Y-m-d H:i:s')
 ];
 ?>
@@ -253,10 +256,32 @@ $hospital = [
                     <span><?php echo $hospital['address']['street'] ?? ''; ?>, <?php echo $hospital['address']['city'] ?? ''; ?>, <?php echo $hospital['address']['state'] ?? ''; ?> <?php echo $hospital['address']['postcode'] ?? ''; ?></span>
                 </div>
                 
-                <div class="flex items-center gap-2 text-blue-100">
+                <div class="flex items-center gap-2 text-blue-100 mb-2">
                     <i class="fas fa-calendar-alt"></i>
                     <span>Tahun Operasi: <?php echo $hospital['established_date'] ?? '1985'; ?></span>
                 </div>
+                
+                <?php 
+                $clusterData = $hospital['cluster'] ?? '';
+                if (!empty($clusterData) && strtoupper($clusterData) !== 'NA'): 
+                ?>
+                <div class="flex items-center gap-2 text-blue-100 mb-2">
+                    <i class="fas fa-layer-group"></i>
+                    <span>Kluster: <?php echo $clusterData; ?></span>
+                </div>
+                <?php endif; ?>
+
+                <?php 
+                $landAreaData = $hospital['land_area'] ?? '';
+                if (!empty($landAreaData) && strtoupper($landAreaData) !== 'NA'): 
+                ?>
+                <div class="flex items-center gap-2 text-blue-100">
+                    <i class="fas fa-ruler-combined"></i>
+                    <span>Keluasan Tanah: <?php echo $landAreaData; ?> Ekar</span>
+                </div>
+                <?php endif; ?>
+
+
             </div>
 
             <!-- Quick Contact Card -->
@@ -373,63 +398,6 @@ $hospital = [
         
         <!-- Left Sidebar -->
         <div class="lg:col-span-1 space-y-6">
-            
-            <!-- Contact Information Card -->
-            <div class="bg-white rounded-2xl shadow-lg p-6 card-hover">
-                <h2 class="text-xl font-bold text-gray-800 mb-5 flex items-center gap-2">
-                    <div class="bg-blue-100 rounded-lg p-2">
-                        <i class="fas fa-address-card text-blue-600"></i>
-                    </div>
-                    Contact Details
-                </h2>
-                <div class="space-y-4">
-                    <div class="flex items-start gap-4 p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
-                        <div class="bg-blue-100 rounded-lg p-2 mt-1">
-                            <i class="fas fa-phone text-blue-600"></i>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-xs text-gray-500 uppercase font-medium mb-1">Phone</p>
-                            <a href="tel:<?php echo $hospital['contact']['phone'] ?? ''; ?>" class="text-gray-800 font-semibold hover:text-blue-600">
-                                <?php echo $hospital['contact']['phone'] ?? 'N/A'; ?>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start gap-4 p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
-                        <div class="bg-red-100 rounded-lg p-2 mt-1">
-                            <i class="fas fa-ambulance text-red-600"></i>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-xs text-gray-500 uppercase font-medium mb-1">Emergency</p>
-                            <a href="tel:<?php echo $hospital['contact']['emergency'] ?? ''; ?>" class="text-gray-800 font-semibold hover:text-red-600">
-                                <?php echo $hospital['contact']['emergency'] ?? 'N/A'; ?>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start gap-4 p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
-                        <div class="bg-green-100 rounded-lg p-2 mt-1">
-                            <i class="fas fa-fax text-green-600"></i>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-xs text-gray-500 uppercase font-medium mb-1">Fax</p>
-                            <p class="text-gray-800 font-semibold"><?php echo $hospital['contact']['fax'] ?? 'N/A'; ?></p>
-                        </div>
-                    </div>
-                    
-                    <div class="flex items-start gap-4 p-3 bg-gray-50 rounded-xl hover:bg-gray-100 transition-colors">
-                        <div class="bg-purple-100 rounded-lg p-2 mt-1">
-                            <i class="fas fa-envelope text-purple-600"></i>
-                        </div>
-                        <div class="flex-1">
-                            <p class="text-xs text-gray-500 uppercase font-medium mb-1">Email</p>
-                            <a href="mailto:<?php echo $hospital['contact']['email'] ?? ''; ?>" class="text-gray-800 font-semibold hover:text-purple-600 break-all text-sm">
-                                <?php echo $hospital['contact']['email'] ?? 'N/A'; ?>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <!-- Administration Card -->
             <div class="bg-white rounded-2xl shadow-lg p-6 card-hover">
@@ -437,7 +405,7 @@ $hospital = [
                     <div class="bg-pink-100 rounded-lg p-2">
                         <i class="fas fa-user-tie text-pink-600"></i>
                     </div>
-                    Administration & Staff
+                    Administration
                 </h2>
                 
                 <div class="mb-5 p-4 bg-gradient-to-r from-pink-50 to-purple-50 rounded-xl border border-pink-100">
@@ -445,6 +413,20 @@ $hospital = [
                     <p class="text-lg font-bold text-gray-800"><?php echo $hospital['administration']['director'] ?? 'N/A'; ?></p>
                 </div>
 
+                <div class="mb-5 p-4 bg-gradient-to-r from-blue-50 to-cyan-50 rounded-xl border border-blue-100">
+                    <p class="text-xs text-gray-500 uppercase font-medium mb-1">Timbalan Ketua PTJ</p>
+                    <div class="text-sm font-bold text-gray-800"><?php 
+                        $deputyDirector = $hospital['administration']['deputy_director'] ?? 'N/A';
+                        if ($deputyDirector !== 'N/A' && !empty(trim($deputyDirector))) {
+                            // Convert line breaks to HTML <br> tags
+                            echo nl2br(htmlspecialchars($deputyDirector, ENT_QUOTES, 'UTF-8'));
+                        } else {
+                            echo 'N/A';
+                        }
+                    ?></div>
+                </div>
+
+                <!--
                 <div class="grid grid-cols-3 gap-4">
                     <div class="bg-gray-50 rounded-xl p-4 text-center hover:bg-gray-100 transition-colors">
                         <i class="fas fa-user-md text-blue-600 text-2xl mb-2"></i>
@@ -462,6 +444,7 @@ $hospital = [
                         <p class="text-xs text-gray-500 font-medium">Support Staff</p>
                     </div>
                 </div>
+                    -->
             </div>
 
             <!-- Facilities Card -->

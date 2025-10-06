@@ -1,0 +1,70 @@
+{
+    "hospital_id": 11,
+    "name": "Hospital Kuala Nerang",
+    "short_name": "Hospital Kuala Nerang",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1994",
+    "address": {
+        "street": "Hospital Kuala Nerang 06300 Kuala Nerang Kedah",
+        "city": "Padang Terap",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalkualanerang@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 80,
+        "icu_beds": 21,
+        "emergency_beds": 31,
+        "operating_rooms": 8,
+        "parking_spaces": 231
+    },
+    "statistics": {
+        "annual_admissions": 45808,
+        "bed_occupancy_rate": 63.08,
+        "average_stay_days": 3.53
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR. NUROLALIMIN \nBINTI MUSTAFA",
+        "deputy_director": "- Dr. Nik Hidayatul Izni Binti Mohd Hatta",
+        "doctors": 46,
+        "nurses": 278,
+        "support_staff": 89,
+        "total_staff": 351
+    },
+    "cluster": "HOKKU",
+    "land_area": "40",
+    "updated_at": "2025-10-06 23:18:46"
+}

@@ -1,0 +1,70 @@
+{
+    "hospital_id": 8,
+    "name": "Hospital Sik",
+    "short_name": "Hospital Sik",
+    "type": "Government",
+    "category": "Public",
+    "status": "Active",
+    "established_date": "1985",
+    "address": {
+        "street": "Jalan Hospital,08200,Sik",
+        "city": "Sik",
+        "state": "Kedah",
+        "postcode": "",
+        "country": "Malaysia"
+    },
+    "contact": {
+        "phone": "N\/A",
+        "fax": "N\/A",
+        "email": "hospitalsik@moh.gov.my",
+        "website": "https:\/\/www.moh.gov.my",
+        "emergency": "N\/A"
+    },
+    "facilities": {
+        "total_beds": 93,
+        "icu_beds": 35,
+        "emergency_beds": 72,
+        "operating_rooms": 13,
+        "parking_spaces": 177
+    },
+    "statistics": {
+        "annual_admissions": 18161,
+        "bed_occupancy_rate": 67,
+        "average_stay_days": 4.72
+    },
+    "departments": [
+        "Perubatan Am",
+        "Pembedahan Am",
+        "Ortopedik",
+        "Pediatrik",
+        "O&G",
+        "Anest",
+        "ORL",
+        "Oftal",
+        "Psy",
+        "OMF",
+        "Kecemasan",
+        "Pergigian Pediatrik"
+    ],
+    "services": [
+        "Forensik",
+        "Anatomical Pathology Microbiology Hematology",
+        "Radiology",
+        "Transfusi",
+        "Dietetik",
+        "Fisioterapi",
+        "Pemulihan Cara Kerja",
+        "Kerja Sosial"
+    ],
+    "administration": {
+        "director": "DR. PARAMESVAREN KARUNAGARAN",
+        "deputy_director": "- Dr Farah Hanis Binti Yusuf",
+        "doctors": 24,
+        "nurses": 165,
+        "support_staff": 39,
+        "total_staff": 323
+    },
+    "cluster": "HOKTEN",
+    "land_area": "24",
+    "updated_at": "2025-10-06 23:18:46"
+}
